@@ -116,6 +116,8 @@ This project demonstrates key secure practices:
 * OTP is time-limited (**2 minutes**)
 * OTP is deleted after success
 
+⚠️ Since it uses **in-memory storage**, restarting backend clears users + OTPs.
+
 ## UI
 
 <img width="1822" height="956" alt="image" src="https://github.com/user-attachments/assets/84d8c7ad-e1db-467d-b581-e2ea2e6412ef" />
@@ -125,6 +127,6 @@ This project demonstrates key secure practices:
 <img width="1822" height="956" alt="image" src="https://github.com/user-attachments/assets/69e25ea6-3567-42b4-a889-1c79502750ad" />
 
 
-⚠️ Since it uses **in-memory storage**, restarting backend clears users + OTPs.
+
 
 ---
